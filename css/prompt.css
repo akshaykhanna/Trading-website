@@ -1,0 +1,17 @@
+#outer{
+ width:100%;
+ text-align:center;
+ }
+ #inner{
+ width:600px;
+ padding:5px;
+ margin:40px auto;
+ border:1px solid #707070;
+ border-radius:7px;
+ moz-border-radius:7px;
+ webkit-border-radius:7px;
+ text-shadow:5px 5px 15px #606060;
+ moz-text-shadow:5px 5px 15px #606060;
+ webkit-text-shadow:5px 5px 15px #606060;
+ font-size:16px;
+ }

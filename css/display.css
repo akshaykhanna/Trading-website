@@ -1,0 +1,20 @@
+#imagebox{
+float:left;
+ width:660px;
+height:550px;
+display:inline-block;
+	 margin-top:20px;
+	 padding:5px;
+	}
+#sidebox{
+margin-top:20px;
+ padding:5px;
+ padding-top:20px;
+float:right;
+ display:inline-block;
+border-bottom:1px solid black;
+width:300px;
+height:550px;
+text-align:left;
+line-height:30px;
+}

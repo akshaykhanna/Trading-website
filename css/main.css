@@ -1,0 +1,206 @@
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+  }
+body{
+   text-align:center;
+   font-family:tahoma;
+   font-size:12px;
+   color:#333333;
+  }   
+header,nav,section,aside,footer{
+   display:block;
+ }
+img{
+ border:none;
+ }
+/* Designg headers:h? */
+h2{
+ /*Dark grey titles*/
+ font-family:tahoma;
+ font-size:14px;
+ color:#404040;/*dark gey*/
+ }
+h3{
+ /*Title for Forms*/
+ margin-bottom:15px;
+ font-size:22px;
+ color:white;
+ text-shadow:1px 1px 3px #080808; /*Dark*/
+ }
+ h4{
+ /**/
+ font-family:tahoma;
+ font-size:14px;
+ font-weight:normal;
+ color:#060606;/*jet black*/
+ }
+h5{
+ /*Title for shipping address*/
+ font-family:tahoma;
+ font-size:14px;
+ color:#404040;
+ text-align:center;/*dark*/
+ } 
+h6{
+ /*Simple address below address title*/
+ font-family:tahoma;
+ font-size:14px;
+ color:#606060; /*light grey*/
+}
+h1{
+font-family:tahoma;
+font-size:22px;
+color:#404040;
+}
+table{
+  width:100%;
+  text-align:center;
+  }
+th{
+ color:#888888; /*light*/
+ font-weight:normal;
+ text-decoration:underline;
+ }
+td{
+ padding:3px 10px;
+}
+a:link
+{
+ color:#339933; /*Green*/
+ text-decoration:none;
+ }
+a:visited
+{
+ color:#339933; /*Green*/
+ text-decoration:none;
+ } 
+ a:hover
+{
+ color:#CC6600; /*Orange*/
+ text-decoration:underline;
+ } 
+ a:active
+{
+ color:#CC6600; /*Orange*/
+ text-decoration:underline;
+ } 
+ .dates{
+ font-weight:bold;
+ color:#CC6600; /*Orange*/
+ }
+ .offers{
+ font-weight:bold;
+ color:#404040; /*Black*/
+ }
+ .username{
+ font-weight:900;
+ color:#00994c; /*Green type*/
+ }
+ .subtitles{
+  color:#707070;/*Grey */
+  display:inline-block;
+  margin:10px;
+  margin-left:20px;
+  padding:5px;
+  position:relative;
+  top:-140px;
+  left:20px;
+
+  }
+  .subtitles a{
+  font-size:16px;
+  font-weight:bold;
+  }
+  .price{
+   display:inline-block;
+	 margin:10px;
+	 padding:5px;
+	 position:relative;
+	  top:-140px;
+  left:20px;
+  color:#060606;/* jet black*/
+  font-weight:bold;
+  }
+  #wrapper{
+    width:1000px;
+	margin:15px auto 0px;
+	text-align:left;
+	}
+#main_header{
+/*space with logo and and upper left links*/
+}
+#rightAlign{
+/*Links div in main_header div*/
+float:right;
+text-align:right;
+}
+#top_search{
+/*Main search bar (the whole div of search+ drop down list + button) */
+margin-top:10px;
+padding:5px 0px 5px 10px;
+-webkit-border-radius:7px; /*for chrome*/
+-moz-border-radius:7px; /*for firefox*/
+border-radius:7px; /*for others such as IE*/
+display:block;
+background-color:#669933 /*bg green*/
+}
+#main_aside{
+/*aside part of website where categoris or type will come */
+margin-top:10px;
+margin-right:10px;
+width:208px;
+border-width:1px;
+float:left;
+}
+#main_section{
+/*section part of website where main content will come*/
+margin-top:10px;
+margin-bottom:10px;
+width:780px;
+float:left;
+}
+#main_footer{
+padding:30px;
+clear:both;
+font-size:10px;
+}
+.searchBox{
+padding:2px;
+border:1px solid #b9bdc1;
+color:#505050;
+}
+
+.button {
+	-moz-box-shadow: 0px 1px 0px 0px #fed897;
+	-webkit-box-shadow: 0px 1px 0px 0px #fed897;
+	box-shadow: 0px 1px 0px 0px #fed897;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6b33d), color-stop(1, #d29105) );
+	background:-moz-linear-gradient( center top, #f6b33d 5%, #d29105 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6b33d', endColorstr='#d29105');
+	background-color:#f6b33d;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid #eda933;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:2px 10px;
+	text-decoration:none;
+	text-shadow: 1px 1px 5px #303030;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d29105), color-stop(1, #f6b33d) );
+	background:-moz-linear-gradient( center top, #d29105 5%, #f6b33d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d29105', endColorstr='#f6b33d');
+	background-color:#d29105;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
